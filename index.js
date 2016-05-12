@@ -1,10 +1,5 @@
-import React from 'react-native';
-
-const {
-  TextInput: {
-    State: TextInputState,
-  },
-} = React;
+import { TextInput } from 'react-native';
+const { State: TextInputState } = TextInput;
 
 export default function dismissKeyboard() {
   TextInputState.blurTextInput(TextInputState.currentlyFocusedField());
