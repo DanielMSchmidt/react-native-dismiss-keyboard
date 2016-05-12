@@ -12,7 +12,12 @@ A simple way to dismiss the keyboard programmatically in a react native applicat
 
 ## Support
 
-We currently support `react-native >= 0.11`, if you experience any restrictions or if it works below, please let us know.
+| React Native Version      | react-native-dismiss-keyboard Version |
+|---------------------------|---------------------------------------|
+|  >= 11 & < 23             | < 1.0                                 |
+| >= 23                     | >= 1.0                                |
+
+If you experience any restrictions or if it works on other versions, please let us know.
 
 ## Contribution
 
