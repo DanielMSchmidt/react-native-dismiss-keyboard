@@ -1,6 +1,6 @@
 {
   "name": "react-native-dismiss-keyboard",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "A simple way to dismiss the keyboard programmatically in a react native application.",
   "main": "dist/index.js",
   "scripts": {
