@@ -1,4 +1,4 @@
-## react-native-dismiss-keyboard ![CircleCi](https://circleci.com/gh/DanielMSchmidt/react-native-dismiss-keyboard.png?circle-token=905f7ed099611e3f8079a5bf72674beab5e55e50) [![npm version](https://badge.fury.io/js/react-native-dismiss-keyboard.svg)](https://badge.fury.io/js/react-native-dismiss-keyboard)
+## react-native-dismiss-keyboard ![CircleCi](https://circleci.com/gh/DanielMSchmidt/react-native-dismiss-keyboard.png?circle-token=905f7ed099611e3f8079a5bf72674beab5e55e50) [![npm version](https://badge.fury.io/js/react-native-dismiss-keyboard.svg)](https://badge.fury.io/js/react-native-dismiss-keyboard) ![Downloads](https://img.shields.io/npm/dm/react-native-dismiss-keyboard.svg)
 
 A simple way to dismiss the keyboard programmatically in a react native application. [A demo app can be found here](https://github.com/DanielMSchmidt/DismissKeyboardExample).
 
