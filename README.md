@@ -5,7 +5,7 @@ A simple way to dismiss the keyboard programmatically in a react native applicat
 ## Add it to your project
 
 1. Run `npm install react-native-dismiss-keyboard --save`
-2. Import the library
+2. To import the library choose one of these options
   - `var dismissKeyboard = require('react-native-dismiss-keyboard');`
   - `import dismissKeyboard from 'react-native-dismiss-keyboard';`
 3. Run `dismissKeyboard()` anywhere in your code to close the keyboard.
