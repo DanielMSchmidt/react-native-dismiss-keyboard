@@ -1,11 +1,9 @@
-## react-native-dismiss-keyboard ![CircleCi](https://circleci.com/gh/DanielMSchmidt/react-native-dismiss-keyboard.png?circle-token=905f7ed099611e3f8079a5bf72674beab5e55e50) [![npm version](https://badge.fury.io/js/react-native-dismiss-keyboard.svg)](https://badge.fury.io/js/react-native-dismiss-keyboard) ![Downloads](https://img.shields.io/npm/dm/react-native-dismiss-keyboard.svg)
+# react-native-dismiss-keyboard ![CircleCi](https://circleci.com/gh/DanielMSchmidt/react-native-dismiss-keyboard.png?circle-token=905f7ed099611e3f8079a5bf72674beab5e55e50) [![npm version](https://badge.fury.io/js/react-native-dismiss-keyboard.svg)](https://badge.fury.io/js/react-native-dismiss-keyboard) ![Downloads](https://img.shields.io/npm/dm/react-native-dismiss-keyboard.svg)
 
 A simple way to dismiss the keyboard programmatically in a react native application. [A demo app can be found here](https://github.com/DanielMSchmidt/DismissKeyboardExample).
 
-# UPDATE: This is now documented inside React Native
-[React Native Keyboard API](http://facebook.github.io/react-native/releases/next/docs/keyboard.html)
-
-> This module extracts code from an undocumented React Native feature. The reason I wrote it is that the import of the internal module failed after updating and in some specific setups.
+## Deprecated for React Native >= 0.35
+This module extracts code from an undocumented React Native feature. The reason I wrote it is that the import of the internal module failed after updating and in some specific setups. The feature is now documented in React Native and may be used directly with the [React Native Keyboard API](http://facebook.github.io/react-native/releases/next/docs/keyboard.html). If your React Native version is high enough I can only encourage you to use React Natives implementation.
 
 ## Add it to your project
 
@@ -17,10 +15,11 @@ A simple way to dismiss the keyboard programmatically in a react native applicat
 
 ## Support
 
-| React Native Version      | react-native-dismiss-keyboard Version |
-|---------------------------|---------------------------------------|
-|  >= 11 & < 23             | < 1.0                                 |
-| >= 23                     | >= 1.0                                |
+| React Native Version          | react-native-dismiss-keyboard Version |
+|-------------------------------|---------------------------------------|
+| >= 0.11 & < 0.23             | < 1.0                                 |
+| >= 0.23                       | >= 1.0                                |
+| >= 0.35                       | [React Native Keyboard API](http://facebook.github.io/react-native/releases/next/docs/keyboard.html)|
 
 If you experience any restrictions or if it works on other versions, please let us know.
 
