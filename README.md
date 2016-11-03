@@ -19,7 +19,7 @@ This module extracts code from an undocumented React Native feature. The reason 
 |-------------------------------|---------------------------------------|
 | >= 0.11 & < 0.23             | < 1.0                                 |
 | >= 0.23                       | >= 1.0                                |
-| >= 0.35                       | [React Native Keyboard API](http://facebook.github.io/react-native/releases/next/docs/keyboard.html)|
+| >= 0.36                       | [React Native Keyboard API](http://facebook.github.io/react-native/releases/next/docs/keyboard.html)|
 
 If you experience any restrictions or if it works on other versions, please let us know.
 
