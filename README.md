@@ -5,6 +5,9 @@ A simple way to dismiss the keyboard programmatically in a react native applicat
 ## Deprecated for React Native >= 0.35
 This module extracts code from an undocumented React Native feature. The reason I wrote it is that the import of the internal module failed after updating and in some specific setups. The feature is now documented in React Native and may be used directly with the [React Native Keyboard API](http://facebook.github.io/react-native/releases/next/docs/keyboard.html). If your React Native version is high enough I can only encourage you to use React Natives implementation.
 
+## Web Views
+This module targets React Native Views, therefore the solution will not work in React Native Web Views. Please use an [alternative solution](http://stackoverflow.com/questions/8335834/how-can-i-hide-the-android-keyboard-using-javascript) in your Web Views Javascript.
+
 ## Add it to your project
 
 1. Run `npm install react-native-dismiss-keyboard --save`
