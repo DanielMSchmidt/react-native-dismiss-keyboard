@@ -29,10 +29,7 @@
       "react"
     ],
     "rules": {
-      "babel/object-curly-spacing": [
-        2,
-        "always"
-      ],
+      "object-curly-spacing": [2, "always"],
       "comma-dangle": [
         2,
         "always-multiline"
@@ -52,7 +49,7 @@
       ],
       "react/no-set-state": 1,
       "react/prop-types": 2,
-      "react/jsx-sort-prop-types": 2,
+      "react/jsx-sort-props": 2,
       "react/jsx-closing-bracket-location": [
         2,
         {
@@ -77,15 +74,18 @@
     "dismiss"
   ],
   "license": "MIT",
+  "peerDependencies": {
+    "react-native": "*"
+  },
   "devDependencies": {
-    "babel": "^5.8.34",
-    "babel-eslint": "^5.0.0-beta6",
-    "eslint": "^1.10.3",
-    "eslint-config-xo": "^0.9.1",
-    "eslint-plugin-babel": "^3.0.0",
+    "babel": "^6.23.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-xo": "^0.18.1",
+    "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-no-empty-blocks": "0.0.2",
     "eslint-plugin-no-use-extend-native": "^0.3.3",
-    "eslint-plugin-react": "^3.13.1",
-    "xo": "^0.12.1"
+    "eslint-plugin-react": "^6.10.3",
+    "xo": "^0.18.1"
   }
 }
