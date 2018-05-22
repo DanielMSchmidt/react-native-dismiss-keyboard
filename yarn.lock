@@ -92,7 +92,7 @@ babel-code-frame@^6.16.0, babel-code-frame@^6.22.0:
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-babel-eslint@^7.2.3:
+babel-eslint@7.2.3:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-7.2.3.tgz#b2fe2d80126470f5c19442dc757253a897710827"
   dependencies:
@@ -137,7 +137,7 @@ babel-types@^6.23.0, babel-types@^6.24.1:
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-babel@^6.23.0:
+babel@6.23.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel/-/babel-6.23.0.tgz#d0d1e7d803e974765beea3232d4e153c0efb90f4"
 
@@ -496,7 +496,7 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-xo@^0.18.0, eslint-config-xo@^0.18.1:
+eslint-config-xo@0.18.1, eslint-config-xo@^0.18.0:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.18.1.tgz#f3bc873b33b2c82513d881eacb2ee3428407ad33"
 
@@ -538,7 +538,7 @@ eslint-plugin-ava@^4.2.0:
     pkg-up "^1.0.0"
     req-all "^1.0.0"
 
-eslint-plugin-babel@^4.1.1:
+eslint-plugin-babel@4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-babel/-/eslint-plugin-babel-4.1.1.tgz#ef285c87039b67beb3bbd227f5b0eed4fb376b87"
 
@@ -561,7 +561,7 @@ eslint-plugin-no-empty-blocks@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-no-empty-blocks/-/eslint-plugin-no-empty-blocks-0.0.2.tgz#cdf7a1fbd10508387b7e6a36ee4c9b9b23b109b9"
 
-eslint-plugin-no-use-extend-native@^0.3.2, eslint-plugin-no-use-extend-native@^0.3.3:
+eslint-plugin-no-use-extend-native@0.3.12, eslint-plugin-no-use-extend-native@^0.3.2:
   version "0.3.12"
   resolved "https://registry.yarnpkg.com/eslint-plugin-no-use-extend-native/-/eslint-plugin-no-use-extend-native-0.3.12.tgz#3ad9a00c2df23b5d7f7f6be91550985a4ab701ea"
   dependencies:
@@ -574,7 +574,7 @@ eslint-plugin-promise@^3.4.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca"
 
-eslint-plugin-react@^6.10.3:
+eslint-plugin-react@6.10.3:
   version "6.10.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-6.10.3.tgz#c5435beb06774e12c7db2f6abaddcbf900cd3f78"
   dependencies:
@@ -594,7 +594,7 @@ eslint-plugin-unicorn@^2.1.0:
     lodash.upperfirst "^4.2.0"
     req-all "^1.0.0"
 
-eslint@^3.18.0, eslint@^3.19.0:
+eslint@3.19.0, eslint@^3.18.0:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.19.0.tgz#c8fc6201c7f40dd08941b87c085767386a679acc"
   dependencies:
@@ -1933,7 +1933,7 @@ xo-init@^0.5.0:
     the-argv "^1.0.0"
     write-pkg "^2.0.0"
 
-xo@^0.18.1:
+xo@0.18.1:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/xo/-/xo-0.18.1.tgz#529bb1cbd612f200221d76df90639d5c88cedf54"
   dependencies:
