@@ -3,7 +3,7 @@
 A simple way to dismiss the keyboard programmatically in a react native application. [A demo app can be found here](https://github.com/DanielMSchmidt/DismissKeyboardExample).
 
 ## Deprecated for React Native >= 0.35
-This module extracts code from an undocumented React Native feature. The reason I wrote it is that the import of the internal module failed after updating and in some specific setups. The feature is now documented in React Native and may be used directly with the [React Native Keyboard API](http://facebook.github.io/react-native/releases/next/docs/keyboard.html). If your React Native version is high enough I can only encourage you to use React Natives implementation.
+This module extracts code from an undocumented React Native feature. The reason I wrote it is that the import of the internal module failed after updating and in some specific setups. The feature is now documented in React Native and may be used directly with the [React Native Keyboard API](https://facebook.github.io/react-native/docs/keyboard.html). If your React Native version is high enough I can only encourage you to use React Natives implementation.
 
 ## Web Views
 This module targets React Native Views, therefore the solution will not work in React Native Web Views. Please use an [alternative solution](http://stackoverflow.com/questions/8335834/how-can-i-hide-the-android-keyboard-using-javascript) in your Web Views Javascript.
@@ -22,7 +22,7 @@ This module targets React Native Views, therefore the solution will not work in 
 |-------------------------------|---------------------------------------|
 | >= 0.11 & < 0.23              | < 1.0                                 |
 | >= 0.23                       | >= 1.0                                |
-| >= 0.36                       | [React Native Keyboard API](http://facebook.github.io/react-native/releases/0.36/docs/keyboard.html)|
+| >= 0.36                       | [React Native Keyboard API](https://facebook.github.io/react-native/docs/0.36/keyboard)|
 
 If you experience any restrictions or if it works on other versions, please let us know.
 
