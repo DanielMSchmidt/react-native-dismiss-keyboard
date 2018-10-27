@@ -12,9 +12,17 @@ This module targets React Native Views, therefore the solution will not work in 
 
 1. Run `npm install react-native-dismiss-keyboard --save`
 2. To import the library choose one of these options
-  - `var dismissKeyboard = require('react-native-dismiss-keyboard');`
-  - `import dismissKeyboard from 'react-native-dismiss-keyboard';`
-3. Run `dismissKeyboard()` anywhere in your code to close the keyboard.
+  - ```js 
+    var dismissKeyboard = require('react-native-dismiss-keyboard');
+    ```
+  - ```js
+    import dismissKeyboard from 'react-native-dismiss-keyboard';
+    ```
+3. Run 
+    ```js 
+    dismissKeyboard()
+    ``` 
+   anywhere in your code to close the keyboard.
 
 ## Support
 
