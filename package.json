@@ -80,7 +80,7 @@
   "devDependencies": {
     "babel": "6.23.0",
     "babel-eslint": "7.2.3",
-    "eslint": "3.19.0",
+    "eslint": "4.18.2",
     "eslint-config-xo": "0.18.1",
     "eslint-plugin-babel": "4.1.1",
     "eslint-plugin-no-empty-blocks": "0.0.2",
