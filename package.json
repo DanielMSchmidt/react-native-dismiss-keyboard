@@ -85,7 +85,7 @@
     "eslint-plugin-babel": "4.1.1",
     "eslint-plugin-no-empty-blocks": "0.0.2",
     "eslint-plugin-no-use-extend-native": "0.3.12",
-    "eslint-plugin-react": "6.10.3",
+    "eslint-plugin-react": "7.24.0",
     "xo": "0.18.1"
   }
 }
