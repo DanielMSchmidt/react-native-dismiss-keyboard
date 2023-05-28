@@ -86,6 +86,6 @@
     "eslint-plugin-no-empty-blocks": "0.0.2",
     "eslint-plugin-no-use-extend-native": "0.5.0",
     "eslint-plugin-react": "6.10.3",
-    "xo": "0.18.1"
+    "xo": "0.54.2"
   }
 }
