@@ -1132,7 +1132,17 @@ eslint-plugin-no-empty-blocks@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-no-empty-blocks/-/eslint-plugin-no-empty-blocks-0.0.2.tgz#cdf7a1fbd10508387b7e6a36ee4c9b9b23b109b9"
 
-eslint-plugin-no-use-extend-native@0.5.0, eslint-plugin-no-use-extend-native@^0.5.0:
+eslint-plugin-no-use-extend-native@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-no-use-extend-native/-/eslint-plugin-no-use-extend-native-0.7.2.tgz#ff496acbca062a7baf8af1d37351fbfed67efaab"
+  integrity sha512-hUBlwaTXIO1GzTwPT6pAjvYwmSHe4XduDhAiQvur4RUujmBUFjd8Nb2+e7WQdsQ+nGHWGRlogcUWXJRGqizTWw==
+  dependencies:
+    is-get-set-prop "^2.0.0"
+    is-js-type "^3.0.0"
+    is-obj-prop "^2.0.0"
+    is-proto-prop "^3.0.1"
+
+eslint-plugin-no-use-extend-native@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-no-use-extend-native/-/eslint-plugin-no-use-extend-native-0.5.0.tgz#d6855e3a823a819b467cf7df56adca57de741bf9"
   dependencies:
@@ -1605,6 +1615,11 @@ get-set-props@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/get-set-props/-/get-set-props-0.1.0.tgz#998475c178445686d0b32246da5df8dbcfbe8ea3"
 
+get-set-props@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/get-set-props/-/get-set-props-0.2.0.tgz#b5f5af9878e13f0db62f6318da1eaa5d9600e8da"
+  integrity sha512-YCmOj+4YAeEB5Dd9jfp6ETdejMet4zSxXjNkgaa4npBEKRI9uDOGB5MmAdAgi2OoFGAKshYhCbmLq2DS03CgVA==
+
 get-stdin@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-9.0.0.tgz#3983ff82e03d56f1b2ea0d3e60325f39d703a575"
@@ -2018,6 +2033,14 @@ is-get-set-prop@^1.0.0:
     get-set-props "^0.1.0"
     lowercase-keys "^1.0.0"
 
+is-get-set-prop@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/is-get-set-prop/-/is-get-set-prop-2.0.0.tgz#76c288b572c329af0a7cb1417f7d5480c1579cd4"
+  integrity sha512-C32bqXfHJfRwa0U5UIMqSGziZhALszXDJZ8n8mz8WZ6c6V7oYGHEWwJvftliBswypY3P3EQqdY5lpDSEKvTS1Q==
+  dependencies:
+    get-set-props "^0.2.0"
+    lowercase-keys "^3.0.0"
+
 is-glob@^4.0.0, is-glob@^4.0.1, is-glob@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.3.tgz#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
@@ -2030,6 +2053,13 @@ is-js-type@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-js-type/-/is-js-type-2.0.0.tgz#73617006d659b4eb4729bba747d28782df0f7e22"
   dependencies:
     js-types "^1.0.0"
+
+is-js-type@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-js-type/-/is-js-type-3.0.0.tgz#8c5bc02f5d01ccdcd11b021e2155096e547cfc58"
+  integrity sha512-IbPf3g3vxm1D902xaBaYp2TUHiXZWwWRu5bM9hgKN9oAQcFaKALV6Gd13PGhXjKE5u2n8s1PhLhdke/E1fchxQ==
+  dependencies:
+    js-types "^4.0.0"
 
 is-my-json-valid@^2.10.0:
   version "2.16.0"
@@ -2069,6 +2099,14 @@ is-obj-prop@^1.0.0:
     lowercase-keys "^1.0.0"
     obj-props "^1.0.0"
 
+is-obj-prop@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/is-obj-prop/-/is-obj-prop-2.0.0.tgz#2062f02e1fb46ffc9e610fa8cec056ae6e18a2c5"
+  integrity sha512-2/VFrbzXSZVJIscazpxoB+pOQx2jBOAAL9Gui4cRKxflznUNBpsr8IDvBA4UGol3e40sltLNiY3qnZv/7qSUxA==
+  dependencies:
+    lowercase-keys "^3.0.0"
+    obj-props "^2.0.0"
+
 is-path-cwd@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-path-cwd/-/is-path-cwd-1.0.0.tgz#d225ec23132e89edd38fda767472e62e65f1106d"
@@ -2105,6 +2143,14 @@ is-proto-prop@^2.0.0:
   dependencies:
     lowercase-keys "^1.0.0"
     proto-props "^2.0.0"
+
+is-proto-prop@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/is-proto-prop/-/is-proto-prop-3.0.1.tgz#a5fa2efeae240899778bd221fc17579020cd54e1"
+  integrity sha512-S8xSxNMGJO4eZD86kO46zrq2gLIhA+rN9443lQEvt8Mz/l8cxk72p/AWFmofY6uL9g9ILD6cXW6j8QQj4F3Hcw==
+  dependencies:
+    lowercase-keys "^3.0.0"
+    prototype-properties "^5.0.0"
 
 is-regex@^1.0.3:
   version "1.0.4"
@@ -2225,6 +2271,11 @@ js-tokens@^4.0.0:
 js-types@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/js-types/-/js-types-1.0.0.tgz#d242e6494ed572ad3c92809fc8bed7f7687cbf03"
+
+js-types@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-types/-/js-types-4.0.0.tgz#901aa719585fab5ddf2633c0bc807d4658c2376a"
+  integrity sha512-/c+n06zvqFQGxdz1BbElF7S3nEghjNchLN1TjQnk2j10HYDaUc57rcvl6BbnziTx8NQmrg0JOs/iwRpvcYaxjQ==
 
 js-yaml@^3.5.1:
   version "3.8.3"
@@ -2379,6 +2430,11 @@ loose-envify@^1.0.0:
 lowercase-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
+
+lowercase-keys@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-3.0.0.tgz#c5e7d442e37ead247ae9db117a9d0a467c89d4f2"
+  integrity sha512-ozCC6gdQ+glXOQsveKD0YsDy8DSQFjDTz4zyzEHNV5+JP5D62LmfDZ6o1cycFx9ouG940M5dE8C8CTewdj2YWQ==
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -2569,6 +2625,11 @@ number-is-nan@^1.0.0:
 obj-props@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/obj-props/-/obj-props-1.1.0.tgz#626313faa442befd4a44e9a02c3cb6bde937b511"
+
+obj-props@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/obj-props/-/obj-props-2.0.0.tgz#adf32dc8a802e248b1392ee238207f10c1f02133"
+  integrity sha512-Q/uLAAfjdhrzQWN2czRNh3fDCgXjh7yRIkdHjDgIHTwpFP0BsshxTA3HRNffHR7Iw/XGTH30u8vdMXQ+079urA==
 
 object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
@@ -2860,6 +2921,11 @@ progress@^1.1.8:
 proto-props@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/proto-props/-/proto-props-2.0.0.tgz#8ac6e6dec658545815c623a3bc81580deda9a181"
+
+prototype-properties@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/prototype-properties/-/prototype-properties-5.0.0.tgz#784e6ab88e0dd8c65e4666ef28e6bb7a8f0f6a58"
+  integrity sha512-uCWE2QqnGlwvvJXTwiHTPTyHE62+zORO5hpFWhAwBGDtEtTmNZZleNLJDoFsqHCL4p/CeAP2Q1uMKFUKALuRGQ==
 
 punycode@^2.1.0:
   version "2.3.0"
